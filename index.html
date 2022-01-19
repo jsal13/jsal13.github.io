@@ -13,9 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Document</title>
@@ -23,126 +20,155 @@
 
 <body>
 
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">jsalv</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="https://jsal13.github.io/blog/">blog</a>
-                    <a class="nav-link" href="https://github.com/jsal13">github</a>
+            <ul class="navbar-nav ms-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="https://jsal13.github.io/blog/">blog</a>
+                        <a class="nav-link" href="https://github.com/jsal13">github</a>
+                    </div>
                 </div>
-            </div>
+            </ul>
         </div>
     </nav>
-    <!-- End Navbar -->
+    <!-- END NAVBAR -->
 
-    <!-- START BODY -->
     <div class="container">
+
+        <!-- START HEADER SALUTATION -->
         <div class="row justify-content-end">
-            <div style="display: grid" class="col justify-content-end">
+            <div style="display: grid" class="col justify-content-start">
                 <h1 class="hello"><img src="images/james.png" style="display: inline-block;" /> Hello. I'm <span
                         class="emphasis-color">James</span>.</h1>
             </div>
         </div>
-        <br />
+        <!-- END HEADER SALUTATION -->
+
+        <!-- START HEADER -->
         <div class="row">
-            <div class="col-8 offset-2">
-                <p>
-                    I studied math for a while, and now I work with a bunch of data trying to learn new things and solve
-                    hard problems. Sometimes I'm even good at it!
-                </p>
-                <p>
-                    I've got a <a href="https://jsal13.github.io/blog/">blog</a> where I do some math and programming
-                    things.
-                </p>
+            <div id="about-me" class="mid-sized-container">
+                <p><b>Here's some things about me.</b></p>
+                <ul>
+                    <li>I studied <a href="https://en.wikipedia.org/wiki/Algebraic_topology" target="_blank">algebraic
+                            topology</a> while I was in school. I still love reading about topology being applied to
+                        data.
+                    </li>
+                    <li> I've got a <a href="https://jsal13.github.io/blog/">blog</a> where I post some math, python,
+                        data, and general programming
+                        things.</li>
+                    <li>I've worked with a bunch of datasets and a bunch of tools. Here are my go-tos:<ul>
+                            <li>Small (in-memory, on-disk) data with Python + Pandas, Looker, Tableau, Excel. </li>
+                            <li>Medium (not in-memory, on-disk) data with Pandas + Dask + Python.</li>
+                            <li>Large (not in-memory, not on-disk) data with PySpark.</li>
+                        </ul>
+                    </li>
+                    <li>I've worked with different flavors of data. Here's some of the industries I've seen data for:
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/Industrial_internet_of_things"
+                                    target="_blank">IIoT</a></li>
+                            <li>Lending & Insurance</li>
+                            <li>Application User Tracking</li>
+                            <li>Marketing</li>
+                            <li>Travel / Airline data</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
+        <!-- END HEADER -->
+
         <hr />
-        <br />
-        <div id="things-im-good-at">
-            <div class="row">
-                <div class="col-8 offset-2">
+
+        <div class="row">
+            <div class="col">
+                <div id="things-im-good-at-title" class="mid-sized-container">
                     <h2>Things I've Done a Lot.</h2>
                     <p>[Legend: <span class="color-data">Data</span>, <span class="color-devops">Devops</span>, <span
                             class="color-misc">Misc Programming</span>.]</p>
                 </div>
             </div>
-            <br />
-            <div class="row">
-                <div class="col-8 offset-2">
-                    <table>
-                        <tr>
-                            <td><span class="color-data">Python with Pandas & Numpy & Sklearn</span> [example]</td>
-                        </tr>
-                        <tr>
-                            <td><span class="color-data">Stats & Linear Algebra</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><span class="color-data">Data Modeling + Viz</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="color-data">BI Tools (Looker, Tableaux)</span></td>
-                        </tr>
+        </div>
 
-                        <tr>
-                            <td><span class="color-devops">Docker</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="color-devops">CI/CD (Jenkins, Circle, Github Actions)</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="color-misc">HTML, CSS, JS (+ Vuejs)</span></td>
-                        </tr>
-                    </table>
-                </div>
+        <div class="row">
+            <div class="col sm-indent">
+                <div id="things-im-good-at-content" class=" mid-sized-container"></div>
+                <table>
+                    <tr>
+                        <td><span class="color-data">Python with Pandas & Numpy & Sklearn</span> [example, expand on]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-data">Stats & Linear Algebra</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-data">Data Modeling + Viz</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-data">BI Tools (Looker, Tableaux)</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="color-devops">Docker</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-devops">CI/CD (Jenkins, Circle, Github Actions)</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-misc">HTML, CSS, JS (+ Vuejs)</span></td>
+                    </tr>
+                </table>
             </div>
-            <br />
-            <hr />
-            <br />
-            <div id="things-im-okay-at">
-                <div class="row">
-                    <div class="col-8 offset-2">
-                        <h2>Things I'm Okay At.</h2>
-                        <p>[Legend: <span class="color-data">Data</span>, <span class="color-devops">Devops</span>,
-                            <span class="color-misc">Misc Programming</span>.]
-                        </p>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="col-8 offset-2">
-                        <table>
-                            <tr>
-                                <td><span class="color-data">R Lang</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="color-devops">AWS (Solutions Architect), GCP (Cloud Engineer)</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><span class="color-misc">C#</span></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
+        </div>
 
-            <br />
-            <hr />
-            <br />
+        <br />
 
-            <div class="row">
-                <div class="d-flex justify-content-center">
-                    <p><span style="font-size: 0.75rem;">Have a nice day! :']</span></p>
+        <div class="row">
+            <div class="col">
+                <div id="things-im-okay-at-title" class="mid-sized-container">
+
+                    <h2>Things I'm Okay At.</h2>
+                    <p>[Legend: <span class="color-data">Data</span>, <span class="color-devops">Devops</span>,
+                        <span class="color-misc">Misc Programming</span>.]
+                    </p>
                 </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col sm-indent">
+                <div id="things-im-okay-at-content" class="mid-sized-container sm-indent"></div>
+                <table>
+                    <tr>
+                        <td><span class="color-data">R Lang</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-devops">AWS (Solutions Architect), GCP (Cloud Engineer)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="color-misc">C#</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="d-flex justify-content-center">
+            <p><span style="font-size: 0.75rem;">Have a nice day! :']</span></p>
+        </div>
+    </div>
+    </div>
     </div>
     <!-- END BODY -->
 
