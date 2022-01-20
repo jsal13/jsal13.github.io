@@ -56,124 +56,151 @@
             <div id="about-me" class="mid-sized-container">
                 <p><b>Here's some things about me.</b></p>
                 <ul>
-                    <li>I studied <a href="https://en.wikipedia.org/wiki/Algebraic_topology" target="_blank">algebraic
-                            topology</a> while I was in school. I still love reading about topology being applied to
+                    <li>I studied mathematics, focusing on <a href="https://en.wikipedia.org/wiki/Algebraic_topology"
+                            target="_blank">algebraic
+                            topology</a>. I still love reading about topology being applied to
                         data.
                     </li>
-                    <li> I've got a <a href="https://jsal13.github.io/blog/">blog</a> where I post some math, python,
+                    <li> I've got a <a href="https://jsal13.github.io/blog/">blog</a> where I post about math, python,
                         data, and general programming
                         things.</li>
-                    <li>I've worked with a bunch of datasets and a bunch of tools. Here are my go-tos:<ul>
-                            <li>Small (in-memory, on-disk) data with Python + Pandas, Looker, Tableau, Excel. </li>
-                            <li>Medium (not in-memory, on-disk) data with Pandas + Dask + Python.</li>
-                            <li>Large (not in-memory, not on-disk) data with PySpark.</li>
-                        </ul>
-                    </li>
-                    <li>I've worked with different flavors of data. Here's some of the industries I've seen data for:
-                        <ul>
+                    <li>I've worked with data in some different industries:<ul>
                             <li><a href="https://en.wikipedia.org/wiki/Industrial_internet_of_things"
-                                    target="_blank">IIoT</a></li>
-                            <li>Lending & Insurance</li>
-                            <li>Application User Tracking</li>
-                            <li>Marketing</li>
-                            <li>Travel / Airline data</li>
+                                    target="_blank">IIoT</a>, Lending & Insurance, Application User Tracking, Marketing,
+                                Travel / Airline data.</li>
                         </ul>
                     </li>
+                    <li>I've been doing freelance <a href="https://en.wikipedia.org/wiki/Copy_editing"
+                            target="_blank">copy editing</a> since college. <ul>
+                            <li>My most controversial language-related opinion: I think that
+                                double contractions (<i>couldn't've, can't've, I'd've</i>, etc.) should be more
+                                acceptable to
+                                use.</li>
+                        </ul>
+                    </li>
+
                 </ul>
             </div>
         </div>
         <!-- END HEADER -->
 
-        <hr />
+        <hr class="dots" />
 
-        <div class="row">
-            <div class="col">
-                <div id="things-im-good-at-title" class="mid-sized-container">
-                    <h2>Things I've Done a Lot.</h2>
-                    <p>[Legend: <span class="color-data">Data</span>, <span class="color-devops">Devops</span>, <span
-                            class="color-misc">Misc Programming</span>.]</p>
-                </div>
+        <!-- Skill Cards -->
+
+        <!-- SKILL: DATA SCIENCE -->
+        <div class="card text-dark bg-light border-1 border-dark mb-2">
+            <div class="card-header text-light bg-dark border-dark fs-2">General
+                Data Science
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><b>Python</b> is my daily-driver.</li>
+                    <li>Proficient in standard DS/ML libraries:
+                        <ul>
+                            <li><b>Numpy</b>, <b>Pandas, Dask, Pyspark</b>, <b>Scikit-Learn, Statsmodels</b>,
+                                <b>matplotlib</b>.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Some non-as-popular DS/ML-related Python libraries I like:
+                        <ul>
+                            <li>
+                                <b><a href="https://altair-viz.github.io/index.html" target="_blank">Altair</a></b>:
+                                Vega-style
+                                graphing with a nice API.
+                            </li>
+                            <li><b><a href="https://mlflow.org/" target="_blank">MLFlow Tracking</a></b>: tracks
+                                metrics, params, etc., for models.
+                            </li>
+                            <li><b><a href="https://streamlit.io/" target=_blank">Streamlit</a></b>: Make webapps to
+                                share
+                                your results! <i>"It's like Shiny, but for Python!"</i></li>
+                        </ul>
+                    </li>
+                    <li>Here's a <b>toy project</b> to show off my coding style:
+                        <ul>
+                            <li><b>
+                                    <a href="https://github.com/jsal13/SignalProject" target="_blank">Toy
+                                        Signal-Generating and Modeling Project.</a>
+                                </b></li>
+                        </ul>
+                    </li>
+                    <li>Know my way around BI Tools: <b>Looker, Tableaux</b>.</li>
+                    <li>Big into <b>PostgreSQL</b> and I've had to write/optimize a ton of queries.</li>
+                </ul>
             </div>
         </div>
+        <!-- END SKILL DATA SCIENCE -->
 
-        <div class="row">
-            <div class="col sm-indent">
-                <div id="things-im-good-at-content" class=" mid-sized-container"></div>
-                <table>
-                    <tr>
-                        <td><span class="color-data">Python with Pandas & Numpy & Sklearn</span> [example, expand on]
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-data">Stats & Linear Algebra</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-data">Data Modeling + Viz</span></td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-data">BI Tools (Looker, Tableaux)</span></td>
-                    </tr>
 
-                    <tr>
-                        <td><span class="color-devops">Docker</span></td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-devops">CI/CD (Jenkins, Circle, Github Actions)</span></td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-misc">HTML, CSS, JS (+ Vuejs)</span></td>
-                    </tr>
-                </table>
+        <!-- SKILL DEVOPS  -->
+        <div class="card text-dark bg-light border-1 border-dark mb-2">
+            <div class="card-header text-light bg-dark border-dark fs-2">
+                Development Operations
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Proficient with <b>Docker, Docker-Compose</b>.</li>
+                    <li>Container Management with <b>K8s</b>.</li>
+                    <li><b>AWS</b>-competent and familiar with the corresponding <b>GCP</b> stuff.</li>
+                    <li>CI/CD with <b>Jenkins (custom pipelines), CircleCI, Github Actions.</b></li>
+                </ul>
             </div>
         </div>
+        <!-- END SKILL DEVOPS  -->
 
-        <br />
 
-        <div class="row">
-            <div class="col">
-                <div id="things-im-okay-at-title" class="mid-sized-container">
-
-                    <h2>Things I'm Okay At.</h2>
-                    <p>[Legend: <span class="color-data">Data</span>, <span class="color-devops">Devops</span>,
-                        <span class="color-misc">Misc Programming</span>.]
-                    </p>
-                </div>
+        <!-- SKILL GENERAL CODING  -->
+        <div class="card text-dark bg-light border-1 border-dark mb-2">
+            <div class="card-header text-light bg-dark border-dark fs-2">
+                Clean Code and Documentation
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Linting, code analysis, and style-enforcement, formatting, and static type checking with
+                        <b>pylint, flake8, pydocstyle, isort, mypy, black</b>.
+                    <li><b>Sphinx</b> with <a href="https://numpydoc.readthedocs.io/en/latest/format.html"
+                            target="_blank">numpy-style</a>
+                        code documentation.
+                    <li>Testing with <b>Pytest, Tox</b>.</li>
+                </ul>
             </div>
         </div>
+        <!-- END SKILL GENERAL CODING  -->
 
-        <div class="row">
-            <div class="col sm-indent">
-                <div id="things-im-okay-at-content" class="mid-sized-container sm-indent"></div>
-                <table>
-                    <tr>
-                        <td><span class="color-data">R Lang</span></td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-devops">AWS (Solutions Architect), GCP (Cloud Engineer)</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span class="color-misc">C#</span></td>
-                    </tr>
-                </table>
+        <!-- SKILL MISC  -->
+        <div class="card text-dark bg-light border-1 border-dark mb-2">
+            <div class="card-header text-light bg-dark border-dark fs-2">
+                Misc Stuff
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>I love making webpages and apps with <b>HTML, CSS, JS (+ Vuejs)</b>.</li>
+                    <li>I learned <b>Unity<b> and <b>C#</b> the summer of 2021, and I've been messing with it since.
+                                It's a lot of fun to make <a href="https://melat0nin.itch.io/"
+                                    target="_blank">games</a>, even if they're not all that good &mdash; or all that
+                                pretty!</li>
+
+                </ul>
             </div>
         </div>
+        <!-- END SKILL MISC  -->
     </div>
 
-    <hr />
+    <hr class="dots" />
 
+    <!-- FOOTER -->
     <div class="row">
         <div class="d-flex justify-content-center">
             <p><span style="font-size: 0.75rem;">Have a nice day! :']</span></p>
         </div>
     </div>
-    </div>
-    </div>
+    <!-- END FOOTER -->
+
     <!-- END BODY -->
 
     <!-- Bootstrap JS -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

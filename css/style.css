@@ -18,11 +18,21 @@ li {
     padding-bottom: 1rem;
 }
 
+li > ul {
+    padding-top: 0.1rem !important;
+}
+
 li > ul > li {
     padding-bottom: 0.3rem !important;
 }
 
-hr {
+.card-body > ul > li {
+
+    padding-bottom: 1rem !important;
+}
+
+
+hr.dots {
     text-align: center;
     outline: 0;
     border: 0;
@@ -63,18 +73,10 @@ hr:after {
 }
 
 .emphasis-color {
-    color: #1976d2 !important
+    color: #1976d2 !important;
 }
 
-.color-data {
-    color: #1976d2
-}
-
-.color-devops {
-    color: rgb(133, 97, 197);
-}
-
-.color-misc {
-    color: rgb(0, 150, 136);
+.card {
+    max-width: 700px !important;
 }
 
