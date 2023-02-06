@@ -1,4 +1,4 @@
-body { 
+body {
     background-color: rgb(238, 238, 238);
     font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 16px;
@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color:#2196f3;
+    color: #2196f3;
 }
 
 ul {
@@ -18,36 +18,35 @@ li {
     padding-bottom: 1rem;
 }
 
-li > ul {
+li>ul {
     padding-top: 0.1rem !important;
 }
 
-li > ul > li {
+li>ul>li {
     padding-bottom: 0.3rem !important;
 }
 
-.card-body > ul > li {
+.card-body>ul>li {
 
     padding-bottom: 1rem !important;
 }
 
-
 hr.dots {
-    text-align: center;
+    text-align: left;
     outline: 0;
     border: 0;
     height: 0 !important;
     opacity: 1;
     overflow: visible !important;
     margin-top: 0;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 
 }
 
 hr:after {
-    content:"\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF";
-    color:#2196f3;
-    font-size:0.5rem;
+    content: "\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF";
+    color: #2196f3;
+    font-size: 0.5rem;
 }
 
 
@@ -79,4 +78,3 @@ hr:after {
 .card {
     max-width: 700px !important;
 }
-
