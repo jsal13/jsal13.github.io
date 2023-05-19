@@ -1,80 +1,9 @@
 body {
     background-color: rgb(238, 238, 238);
-    font-family: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #222831;
-}
-
-a {
-    color: #2196f3;
+    font-family: 'Lora', serif;
+    font-size: 18px;
 }
 
 ul {
-    margin-bottom: 0;
-}
-
-li {
-    padding-bottom: 1rem;
-}
-
-li>ul {
-    padding-top: 0.1rem !important;
-}
-
-li>ul>li {
-    padding-bottom: 0.3rem !important;
-}
-
-.card-body>ul>li {
-
-    padding-bottom: 1rem !important;
-}
-
-hr.dots {
-    text-align: left;
-    outline: 0;
-    border: 0;
-    height: 0 !important;
-    opacity: 1;
-    overflow: visible !important;
-    margin-top: 0;
-    margin-bottom: 3.5rem;
-
-}
-
-hr:after {
-    content: "\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF\a0\a0\a0\a0\a0\25CF";
-    color: #2196f3;
-    font-size: 0.5rem;
-}
-
-
-.navbar {
-    height: 48px !important;
-}
-
-.hello {
-    /* Used for "Hey" part on the page. */
-    /* font-family: 'Fira Code', monospace; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-}
-
-.mid-sized-container {
-    max-width: 700px;
-}
-
-.sm-indent {
-    margin-left: 1rem;
-}
-
-.emphasis-color {
-    color: #1976d2 !important;
-}
-
-.card {
-    max-width: 700px !important;
+    margin-bottom: 0.5em;
 }
