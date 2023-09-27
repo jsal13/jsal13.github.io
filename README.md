@@ -2,9 +2,10 @@
 
 ## TODO
 
-- Favicons.
 - Image of self.
 - Proofread / whatever the text.
+- "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content."
+- What do the apps do?
 
 This template should help get you started developing with Vue 3 in Vite.
 
