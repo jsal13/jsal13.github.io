@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomePageView from '/src/views/HomePageView.vue'
 
 import FlagsView from '/src/views/FlagsView.vue'
@@ -7,7 +7,7 @@ import FacialExpressionsView from '/src/views/FacialExpressionsView.vue'
 
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
