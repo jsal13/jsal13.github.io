@@ -4,6 +4,7 @@ import HomePageView from '/src/views/HomePageView.vue'
 import FlagsView from '/src/views/FlagsView.vue'
 import SceneStarterView from '/src/views/SceneStarterView.vue'
 import FacialExpressionsView from '/src/views/FacialExpressionsView.vue'
+import BassPracticeView from '/src/views/BassPracticeView.vue'
 
 
 const router = createRouter({
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/facial-expressions',
       name: 'facialexpression',
       component: FacialExpressionsView
+    },
+    {
+      path: '/bass-practice',
+      name: 'basspractice',
+      component: BassPracticeView
     }
   ]
 })
