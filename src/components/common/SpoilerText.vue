@@ -1,33 +1,36 @@
 <script setup>
-import { watch, ref } from 'vue';
+import { watch, ref } from 'vue'
 const props = defineProps({ text: String, size: String })
 
-const showSpoiler = ref(true);
+const showSpoiler = ref(true)
 
-watch(() => props.text, () => {
+watch(
+  () => props.text,
+  () => {
     if (!showSpoiler.value) {
-        toggleSpoiler();
+      toggleSpoiler()
     }
-})
+  }
+)
 
 function toggleSpoiler() {
-    showSpoiler.value = !showSpoiler.value;
+  showSpoiler.value = !showSpoiler.value
 }
 </script>
 
 <template>
-    <div class="spoiler-text">
-        <p :class="{ spoiler: showSpoiler }" @click="toggleSpoiler()">{{ text }}</p>
-    </div>
+  <div class="spoiler-text">
+    <h2 :class="{ spoiler: showSpoiler }" @click="toggleSpoiler()">{{ text }}</h2>
+  </div>
 </template>
 
 <style>
-.spoiler-text>p {
-    color: black;
-    font-size: v-bind(size);
+.spoiler-text > p {
+  color: black;
+  font-size: v-bind(size);
 }
 
 .spoiler {
-    background-color: black;
+  background-color: black;
 }
 </style>

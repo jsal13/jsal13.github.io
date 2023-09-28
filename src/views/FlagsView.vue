@@ -1,9 +1,9 @@
 <script setup>
-import Flags from '/src/components/apps/flags/Flags.vue'
+import FlagGuesser from '/src/components/apps/flags/FlagGuesser.vue'
 </script>
 
 <template>
   <main>
-    <Flags />
+    <FlagGuesser />
   </main>
 </template>

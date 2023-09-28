@@ -1,9 +1,9 @@
 <script setup>
-import BassPractice from '/src/components/apps/basspractice/BassPractice.vue'
+import BassPractice from '/src/components/apps/bass_practice/BassPractice.vue'
 </script>
 
 <template>
-    <main>
-        <BassPractice />
-    </main>
+  <main>
+    <BassPractice />
+  </main>
 </template>
