@@ -5,7 +5,10 @@
 - Image of self.
 - Proofread / whatever the text.
 - "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content."
-- What do the apps do?
+- Make Timer Better.  Pause function?
+- Figure out better color for "pause" on timer.
+- Timer should not count up after 0.
+- Dropshadow play with.
 
 This template should help get you started developing with Vue 3 in Vite.
 

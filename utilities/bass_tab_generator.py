@@ -1,5 +1,7 @@
+import re
+
 # Change this boi.
-notes = "e1,e3,a1,a3,d1,d3,g1,g3,g2,g4,d2,d4,a2,a4,e2,e4,e3,e5,a3,a5,d3,d5,g3,g5,g4,g6,d4,d6,a4,a6,e4,e6"
+NOTES = "e3e3e3a4a4a4d5d5d5g6g6g6g7g7g7d6d6d6a5a5a5e4e4e4e5e5e5a4a4a4d3d3d3g2g2g2g3g3g3d4d4d4a5a5a5e6e6e6"
 
 STRING_MAP = {"e": 3, "a": 2, "d": 1, "g": 0}
 
@@ -9,9 +11,9 @@ def generate_tabs(notes: str) -> list[str]:
     Genrates tabs given data.
 
     Form of data is:
-        e1,e3,a1,a3,d1,d3,g1,g3,g2,g4,d2,d4,a2,a4,e2,e4
+        e1e3a1a3d1d3g1g3g2g4d2d4a2a4e2e4
     """
-    notes_split = [note.strip() for note in notes.split(",")]
+    notes_split = [note.strip() for note in re.findall(r"[eadg]\d+", notes)]
     tabs = [["-"] * (2 * len(notes_split)) for _ in range(4)]
 
     for idx, note in enumerate(notes_split):
@@ -56,6 +58,6 @@ def generate_tabs(notes: str) -> list[str]:
     return stacked_html
 
 
-html = generate_tabs(notes=notes)
+html = generate_tabs(notes=NOTES)
 for i in html:
     print(i)
