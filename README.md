@@ -9,6 +9,7 @@
 - Figure out better color for "pause" on timer.
 - Timer should not count up after 0.
 - Dropshadow play with.
+- Reword / rework singing exercises.
 
 This template should help get you started developing with Vue 3 in Vite.
 
