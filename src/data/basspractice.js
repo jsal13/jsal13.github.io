@@ -119,4 +119,26 @@ const warmups = [
 ]
 
 
-export { warmups };
+const mains = [
+    `<h3>Olivia Rodrigo - Bad Idea Right?</h3>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dj9qJsJTsjQ?si=1iTBn8rtHxZxycha"
+    allowfullscreen></iframe>
+</div>`,
+    `<h3>Olivia Rodrigo - Vampire</h3>
+    <p><a href="https://tabs.ultimate-guitar.com/tab/olivia-rodrigo/vampire-chords-4843571" target="_blank">Tabs</a></p>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RlPNh_PBZb4?si=_a67JwApT1uTwiaG"
+    allowfullscreen></iframe>
+</div>`,
+    `<h3>P!nk - Please Don't Leave Me</h3>
+    <p><a href="https://www.songsterr.com/a/wsa/pink-please-dont-leave-me-bass-tab-s387482" target="_blank">Tabs</a></p>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eocCPDxKq1o?si=aZj9_LZhZ_fgUVwK"
+    allowfullscreen></iframe>
+</div>`,
+]
+
+
+
+export { warmups, mains };
