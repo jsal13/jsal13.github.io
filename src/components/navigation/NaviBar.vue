@@ -31,6 +31,9 @@ import NaviBarIcons from '/src/components/navigation/NaviBarIcons.vue'
             <li class="app-dropdown-item">
               <RouterLink to="/bass-practice">Bass Practice</RouterLink>
             </li>
+            <li class="app-dropdown-item">
+              <RouterLink to="/dice">Dice Roller</RouterLink>
+            </li>
           </ul>
         </div>
       </div>

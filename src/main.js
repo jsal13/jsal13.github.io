@@ -4,7 +4,7 @@ import router from './router'
 
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import '/src/style.css'
+import '/src/style.scss'
 import '/src/bootstrap-custom.scss'
 
 
