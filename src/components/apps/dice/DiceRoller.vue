@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import DiceCard from "/src/components/apps/dice/DiceCard.vue"
+import DiceCard from '/src/components/apps/dice/DiceCard.vue'
 
 const d4 = ref(null)
 const d6 = ref(null)
@@ -19,16 +19,19 @@ function RollAll() {
   d20.value.RollAll()
 }
 
-
 onMounted(() => {
   RollAll()
 })
-
 </script>
 
 <template>
   <div class="dice-roller">
-    <h1 class="mb-4">Dice!</h1>
+    <h1 class="mb-4">Dice</h1>
+    <hr />
+    <button type="button" class="btn btn-primary" @click="RollAll()">
+      <span class="h3">ROLL!</span>
+    </button>
+    <hr />
 
     <div class="container d-flex-column">
       <DiceCard ref="d4" class="mb-2" :sides="4" />
@@ -38,7 +41,5 @@ onMounted(() => {
       <DiceCard ref="d12" class="mb-2" :sides="12" />
       <DiceCard ref="d20" class="mb-2" :sides="20" />
     </div>
-
-    <button type="button" class="btn btn-primary" @click="RollAll()">Roll!</button>
   </div>
 </template>
