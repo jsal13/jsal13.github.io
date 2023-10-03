@@ -4,10 +4,6 @@
 
 - Image of self.
 - Proofread / whatever the text.
-- "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content."
-- Make Timer Better.  Pause function?
-- Figure out better color for "pause" on timer.
-- Timer should not count up after 0.
 - Dropshadow play with.
 - Reword / rework singing exercises.
 
