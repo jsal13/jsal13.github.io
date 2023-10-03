@@ -6,19 +6,12 @@ const dialogueVal = ref('')
 const emotionVal = ref('')
 
 onMounted(() => {
-  reroll()
+  NewSceneStarter()
 })
 
-function reroll() {
-  getRandomDialogue()
-  getRandomEmotion()
-}
-
-function getRandomDialogue() {
+function NewSceneStarter() {
+  // Get new dialogue and emotion.
   dialogueVal.value = dialogue[Math.floor(Math.random() * dialogue.length)]
-}
-
-function getRandomEmotion() {
   emotionVal.value = emotions[Math.floor(Math.random() * emotions.length)]
 }
 </script>
@@ -26,14 +19,9 @@ function getRandomEmotion() {
 <template>
   <div class="scene-starter">
     <h1 class="mb-4">Random Dialogue with Emotion</h1>
-    <h2 class="emotion">{{ emotionVal }}</h2>
-    <p class="dialogue">{{ dialogueVal }}</p>
-    <button type="button" class="btn btn-primary" @click="reroll()">Reroll!</button>
+    <hr />
+    <p class="emotion h4">{{ emotionVal }}</p>
+    <p class="dialogue h6">"{{ dialogueVal }}"</p>
+    <button type="button" class="btn btn-primary mt-4" @click="NewSceneStarter">Randomize!</button>
   </div>
 </template>
-
-<style>
-.dialogue {
-  font-size: 1.25rem;
-}
-</style>

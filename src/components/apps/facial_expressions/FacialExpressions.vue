@@ -27,9 +27,12 @@ watch(
 <template>
   <div class="scene-starter">
     <h1>Facial Expression Generator</h1>
+    <hr />
     <span class="emoji">{{ expressionEmoji }}</span>
     <br />
-    <button type="button" class="btn btn-primary" @click="getRandomExpression()">Reroll!</button>
+    <button type="button" class="btn btn-primary" @click="getRandomExpression()">
+      New Expression!
+    </button>
   </div>
 </template>
 
