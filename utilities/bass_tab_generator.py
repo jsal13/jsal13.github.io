@@ -1,7 +1,7 @@
 import re
 
 # Change this boi.
-NOTES = "e3e3e3a4a4a4d5d5d5g6g6g6g7g7g7d6d6d6a5a5a5e4e4e4e5e5e5a4a4a4d3d3d3g2g2g2g3g3g3d4d4d4a5a5a5e6e6e6"
+NOTES = "e0e1e3a0a2a3a5d2d3d5d7d9d10d12g9g10g12g14g16g17g19g17g16g14d17d15d14d12d10d9d7a10a8a7a5a3a2a0e3e1e0"
 
 STRING_MAP = {"e": 3, "a": 2, "d": 1, "g": 0}
 

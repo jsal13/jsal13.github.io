@@ -48,27 +48,16 @@ function GetRandomMains() {
       New Practice Routine!
     </button>
 
-    <div class="accordion" id="bass-practice-accordion">
+    <div class="accordion mb-4" id="bass-practice-accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button"
-            id="warmup-label"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#warmup-collapse"
-            aria-expanded="true"
-            aria-controls="warmup-collapse"
-          >
-            Warm Up
+        <div class="accordion-header">
+          <button class="accordion-button" id="warmup-label" type="button" data-bs-toggle="collapse"
+            data-bs-target="#warmup-collapse" aria-expanded="true" aria-controls="warmup-collapse">
+            <h2>Warm Up</h2>
           </button>
-        </h2>
-        <div
-          id="warmup-collapse"
-          class="accordion-collapse collapse show"
-          aria-labelledby="warmup-label"
-          data-bs-parent="#bass-practice-accordion"
-        >
+        </div>
+        <div id="warmup-collapse" class="accordion-collapse collapse show" aria-labelledby="warmup-label"
+          data-bs-parent="#bass-practice-accordion">
           <div class="accordion-body">
             <CountDownTimer :seconds="timerWarmupSecs" class="mb-4" />
             <div class="warmup mb-4"><span v-html="warmup1"></span></div>
@@ -79,25 +68,14 @@ function GetRandomMains() {
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button"
-            id="main-practice-label"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#main-practice-collapse"
-            aria-expanded="true"
-            aria-controls="main-practice-collapse"
-          >
-            Main Practice
+        <div class="accordion-header">
+          <button class="accordion-button" id="main-practice-label" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-practice-collapse" aria-expanded="true" aria-controls="main-practice-collapse">
+            <h2>Main Practice</h2>
           </button>
-        </h2>
-        <div
-          id="main-practice-collapse"
-          class="accordion-collapse collapse show"
-          aria-labelledby="main-practice-label"
-          data-bs-parent="#bass-practice-accordion"
-        >
+        </div>
+        <div id="main-practice-collapse" class="accordion-collapse collapse show" aria-labelledby="main-practice-label"
+          data-bs-parent="#bass-practice-accordion">
           <div class="accordion-body">
             <CountDownTimer :seconds="timerMainSecs" class="mb-4" />
             <div class="main mb-4"><span v-html="main1"></span></div>
