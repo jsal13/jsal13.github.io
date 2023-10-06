@@ -6,7 +6,9 @@ import SceneStarterView from '/src/views/SceneStarterView.vue'
 import FacialExpressionsView from '/src/views/FacialExpressionsView.vue'
 import BassPracticeView from '/src/views/BassPracticeView.vue'
 import VocalPracticeView from '/src/views/VocalPracticeView.vue'
+import DancePracticeView from '/src/views/DancePracticeView.vue'
 import DiceRollerView from '/src/views/DiceRollerView.vue'
+
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -40,6 +42,11 @@ const router = createRouter({
       path: '/vocal-practice',
       name: 'vocalpractice',
       component: VocalPracticeView
+    },
+    {
+      path: '/dance-practice',
+      name: 'dancepractice',
+      component: DancePracticeView
     },
     {
       path: '/dice',
