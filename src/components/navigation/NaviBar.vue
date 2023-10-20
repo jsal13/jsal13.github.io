@@ -44,9 +44,6 @@ import NaviBarIcons from '/src/components/navigation/NaviBarIcons.vue'
             <li class="app-dropdown-item">
               <RouterLink to="/dice">Dice Roller</RouterLink>
             </li>
-            <li class="app-dropdown-item">
-              <RouterLink to="/grid">Grid for D&D</RouterLink>
-            </li>
           </ul>
         </div>
       </div>

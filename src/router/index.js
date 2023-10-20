@@ -8,7 +8,6 @@ import BassPracticeView from '/src/views/BassPracticeView.vue'
 import VocalPracticeView from '/src/views/VocalPracticeView.vue'
 import DancePracticeView from '/src/views/DancePracticeView.vue'
 import DiceRollerView from '/src/views/DiceRollerView.vue'
-import GridSpanView from '/src/views/GridSpanView.vue'
 
 
 const router = createRouter({
@@ -54,11 +53,6 @@ const router = createRouter({
       name: 'diceroller',
       component: DiceRollerView
     },
-        {
-      path: '/grid',
-      name: 'gridspan',
-      component: GridSpanView
-    }
   ]
 })
 
