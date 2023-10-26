@@ -20,7 +20,6 @@ const appsListData = ref({
     `<a href="#/bass-practice">Bass Practice</a>: Gives a random practice routine for bass guitar.`,
     `<a href="#/vocal-practice">Vocal Practice</a>: Gives a random practice routine for vocal lessons.`,
     `<a href="#/dance-practice">Dance Practice</a>: Gives a random practice routine for misc dance lessons.`,
-    `<a href="#/dice">Dice Roller</a>: Roll some dice.  I need to roll dice a lot.`
   ]
 })
 
