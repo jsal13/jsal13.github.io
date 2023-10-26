@@ -46,6 +46,11 @@ const router = createRouter({
       path: '/dance-practice',
       name: 'dancepractice',
       component: DancePracticeView
+    },
+    {
+      path: '/dice',
+      name: 'diceroller',
+      component: DiceRollerView
     }
   ]
 })
