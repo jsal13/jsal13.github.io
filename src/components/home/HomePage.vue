@@ -26,7 +26,7 @@ const codeAndTechData = ref({
   data: [
     `My <a href="https://github.com/jsal13/dotfiles" target="_blank">dotfiles</a> (<i>"What's a <a href="https://dotfiles.github.io/" target="_blank">dotfile?</a>"</i>)`,
     `<a href="https://github.com/jsal13/cookiecutter-pytemplate" target="_blank">Python Cookiecutter ML/DS Template</a>`,
-    `<a href="https://github.com/jsal13/toys" target="_blank">Toys for DE/ML/DS stuff</a>`
+    `<a href="https://github.com/jsal13/mlops_toys" target="_blank">Toys for DE/ML/DS stuff</a>`
   ]
 })
 </script>
