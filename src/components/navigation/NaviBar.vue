@@ -11,12 +11,8 @@ import NaviBarIcons from '/src/components/navigation/NaviBarIcons.vue'
         </a>
 
         <div class="dropdown nav-dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle btn-sm"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
+          <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Apps
           </button>
           <ul class="dropdown-menu larger-menu">
@@ -35,12 +31,6 @@ import NaviBarIcons from '/src/components/navigation/NaviBarIcons.vue'
             <li class="app-dropdown-item">
               <RouterLink to="/bass-practice">Bass Practice</RouterLink>
             </li>
-            <li class="app-dropdown-item">
-              <RouterLink to="/vocal-practice">Vocal Practice</RouterLink>
-            </li>
-            <li class="app-dropdown-item">
-              <RouterLink to="/dance-practice">Dance Practice</RouterLink>
-            </li>
           </ul>
         </div>
       </div>
@@ -51,7 +41,7 @@ import NaviBarIcons from '/src/components/navigation/NaviBarIcons.vue'
 </template>
 
 <style>
-.navbar-title-jsalv > * {
+.navbar-title-jsalv>* {
   font-size: 1.2rem;
   text-decoration: none !important;
   font-weight: bold !important;
@@ -63,7 +53,7 @@ import NaviBarIcons from '/src/components/navigation/NaviBarIcons.vue'
   padding-bottom: 0.75rem;
 }
 
-.app-dropdown-item > a {
+.app-dropdown-item>a {
   font-size: 1.1rem;
   text-decoration: none !important;
   font-weight: bold !important;
