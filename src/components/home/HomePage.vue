@@ -17,7 +17,6 @@ const appsListData = ref({
     `<a href="#/flags">Flag Guesser</a>: Guess the flag!`,
     `<a href="#/scene-starter">Improv Scene Starter Suggestion Generator</a>: Generates an emotion and some lines from chat-GPT.  Some lines are weird but it did its best.`,
     `<a href="#/facial-expressions">Facial Expressions</a>: Gives a random face emoji.  I used this when I had to practice different facial expressions for a Clowning class.`,
-    `<a href="#/bass-practice">Bass Practice</a>: Gives a random practice routine for bass guitar.`,
   ]
 })
 
