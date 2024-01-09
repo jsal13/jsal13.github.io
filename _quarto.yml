@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "jsalv"
+  search: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    tools:
+      - icon: github
+        href: https://github.com/jsal13/
+      - icon: controller
+        href: https://melat0nin.itch.io/
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: cyborg
+    css: styles.css
+    # toc: true

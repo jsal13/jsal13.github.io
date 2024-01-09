@@ -1,0 +1,25 @@
+---
+title: "jsalv"
+---
+
+<img src="/assets/images/sloth_james.png" alt="sloth_james"/>
+
+## Here Are Some Things About Me
+
+- I've **worked with data** in a bunch of different industries: [IIoT](https://en.wikipedia.org/wiki/Industrial_internet_of_things), Lending & Insurance, Application User Tracking, Marketing, Hotel & Airline, and Parking.
+
+- I **studied mathematics** in grad school. I worked in [algebraic topology](https://en.wikipedia.org/wiki/Algebraic_topology). Still love reading about topology being applied to data &mdash; one day I hope it becomes useful!
+
+- I've done **freelance [copy editing](https://en.wikipedia.org/wiki/Copy_editing)** since undergrad. *I hope you don't find any grammar issues on this page.*
+
+## Here's Some Code Stuff I've Done
+
+- My [dotfiles](https://github.com/jsal13/dotfiles) *("What's a [dotfile](https://dotfiles.github.io/)?")*
+
+- [Python Cookiecutter ML/DS Template](https://github.com/jsal13/cookiecutter-dstemplate)
+
+- [Toys for DE/ML/DS stuff](https://github.com/jsal13/mlops_toys)
+
+---
+
+Have a good day! :']
