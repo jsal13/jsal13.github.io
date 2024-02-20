@@ -2,7 +2,7 @@
 title: "jsalv"
 ---
 
-<img src="/assets/images/sloth_james.png" alt="sloth_james"/>
+<img src="/assets/images/james_photo.jpg" alt="james_photo"/>
 
 ## Here Are Some Things About Me
 
