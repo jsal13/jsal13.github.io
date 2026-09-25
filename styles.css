@@ -39,7 +39,7 @@ body {
     height: 176px;
     border-radius: 8px;
     object-fit: cover;
-    object-position: center 14%;
+    object-position: center 0%;
     border: 1px solid var(--line);
 }
 
