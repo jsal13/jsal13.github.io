@@ -8,29 +8,63 @@
     <meta name="description" content="Choose between James Salvatore's creative work and data work portfolios." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <main class="page landing-page">
-        <section class="hero" aria-label="Portfolio Landing">
-            <h1>James Salvatore</h1>
-            <p class="role">Choose a portfolio</p>
-        </section>
+      <header class="hero">
+        <img
+          src="assets/images/james_photo.jpg"
+          alt="Portrait of James Salvatore"
+          class="profile-photo"
+        />
+        <div class="hero-copy">
+          <p class="role">Data Engineer</p>
+          <h1>James Salvatore</h1>
+          <p>
+            I build and maintain data systems that turn raw data into useful decisions. I especially enjoy the data janitorial work: cleaning, organizing, and structuring information so people can actually use it.
+          </p>
+          <p class="links"><a href="https://github.com/jsal13">GitHub profile</a></p>
+        </div>
+      </header>
 
-        <section aria-labelledby="portfolio-options">
-            <div class="portfolio-options">
-                <a class="portfolio-option" href="data_work.html">
-                    <h3>Data Work</h3>
-                    <p>Data engineering, analytics systems, and technical projects.</p>
-                </a>
-                <a class="portfolio-option" href="creative_work.html">
-                    <h3>Creative Work</h3>
-                    <p>Shows, productions, theater direction, and performance projects.</p>
-                </a>
-            </div>
-        </section>
+      <section aria-labelledby="about">
+        <h2 id="about">About</h2>
+        <ul class="about-list">
+          <li>
+            I've worked on data solutions across tons of different industries—<a href="https://en.wikipedia.org/wiki/Industrial_internet_of_things">IIoT</a>, lending, insurance, product analytics, marketing, travel and hospitality, and parking operations.  I've consulted and helped build apps with Chicago Open Data for civic tech and public policy projects.  Fun stuff.
+          </li>
+          <li>
+            My graduate work in mathematics focused on
+            <a href="https://en.wikipedia.org/wiki/Algebraic_topology">algebraic topology</a>.
+            It's a beautiful subject that gave me a deep understanding of how to work with complex, abstract systems.  It's also fun to turn <a href="https://en.wikipedia.org/wiki/File:Mug_and_Torus_morph.gif">donuts into coffee cups and back again</a>.
+          </li>
+          <li>
+            Since undergrad, I've done freelance <a href="https://en.wikipedia.org/wiki/Copy_editing">copy editing</a>, which has helped me get better documentation habits and has given me a lot of practice helping to explain technical topics clearly.
+          </li>
+          <li>
+            Outside of data work, I founded and run a teaching theater collective called <a href="https://www.spaceoperacompany.com/">Space Opera Company</a>.  We focus on teaching adults acting, dancing, singing, theater tech, etc., creating real productions for them to work in.  It's been a lot of fun and I've learned a lot.
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="work">
+        <h2 id="work">Selected Work</h2>
+        <ul class="work-list">
+          <li>
+            <a href="https://github.com/jsal13/dotfiles">Dotfiles</a>: my
+            development environment and workflows.
+          </li>
+          <li>
+            <a href="https://github.com/jsal13/mlops_toys">MLOps Toys</a>:
+            experiments and practical tooling for data engineering and ML
+            workflows.
+          </li>
+        </ul>
+      </section>
+
     </main>
 </body>
 
